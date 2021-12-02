@@ -1,0 +1,12 @@
+namespace projeto_final.Models
+{
+
+    public class Department
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public void addSeller(Seller seller){}
+
+    }
+}
